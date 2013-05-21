@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>IRB Resource</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet"-->
+		<link href="../css/bootstrap.css" rel="stylesheet">
+		<link href="../css/main.css" rel="stylesheet">
+		<style type="text/css">
+			body{ 
+			padding-top:60px;
+			padding-bottom:40px;	
+			}
+		</style>
+	</head>
+	<body>
+	<!--Navigation Bar-->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<ul class="nav">
+					<!--<li><a href="../index.html">Home</a></li>-->
+					<li class="active"><a href="./decision.html">Need IRB?</a></li>
+					<li><a href="./steps.html">Steps IRB</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!--Main Content-->
+	<div class="container-fluid">
+	
+	<!--Nav List-->
+	<div class="span2">
+		<ul id="navbar" class="nav nav-list affix" data-spy="affix" data-offset-top="100">
+			<li class="nav-header">Links</li>
+			<li><a href="#form">Quick Form</a>
+			<li><a href="#charts"> Flow Charts</a></li>
+			<li><a href="#references">References</a></li>
+		</ul>
+	</div><!--div nav list-->
+	<!--Content Div-->
+	<div class="span8">
+			<!--div id="shortform" class='hero-unit'>
+				<form>
+				<fieldset>
+				<legend>
+					Describe your activity in a sentence:
+				</legend>
+				
+				<h3>I am conducting
+				<div><select class="input-medium" style="display:inline"> 
+					<option value="general">generalizable </option>
+					<option value="notgeneral"> not generalizable </option>
+				</select><a href="#generalizableModal" data-toggle="modal"><i class="icon-question-sign"></i></a>
+				</div>research.</h3>
+				<br>
+				<button id="formsubmit" type="submit" class="btn btn-info">Reify</button>
+				</fieldset>				
+				</form>
+			</div-->
+	
+	
+		<!--section id="form" class="anchor">
+		<div class="page-header">
+		<h1>Quick Decision Form</h1>
+		</div>
+		<div id="test">
+			<p id="cool"> This is the </p>
+			<select id="sentence" onchange="formReview()"> 
+				<option value="test">failed</option>
+				<option value="saof">succeeded</option>
+			</select>
+			<p>&nbsp attempt.
+			 </p>
+		</div>
+		<div id="response">
+		</div>
+		</section--> <!--form-->	
+		<section id="charts" class="anchor">
+		<div class="page-header">
+		<h1>HHS Decision Diagram</h1>
+		</div>
+			
+			<div id="humansubject" class="diagrams">
+				<img src="../img/irbchart.png" />
+				<br><br><br><br>
+				<img src="../img/humansubjects.gif" />
+			</div>
+			<div id="exemption" class="diagrams">
+			
+			</div>
+		</section> <!--charts-->
+		<section id="references">
+		
+		</section> <!--references-->
+	</div> <!--central content-->
+	</div> <!--Main Container-->
+	
+	<div id="generalizableModal" class="modal hide fade" tabindex="-1" role="dialog">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3> Generalizability </h3>
+		</div>
+		<div class="modal-body">
+			<p> Generalizability is important for considering whether one needs IRB review.</p>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		</div>
+	</div>
+	
+	<!--Scripts
+	================================================-->
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="../js/bootstrap-alert.js"></script>
+	<script src="../js/bootstrap-button.js"></script>
+	<script src="../js/bootstrap-dropdown.js"></script>
+	<!--script src="../js/bootstrap-modal.js"></script-->
+	<script src="../js/bootstrap-popover.js"></script>
+	<script src="../js/bootstrap-tab.js"></script>
+	<script src="../js/bootstrap-tooltip.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<!--script src="../js/bootstrap.min.js"--></script>
+	<script src="../js/site.js"></script>
+	</body>
+</html>

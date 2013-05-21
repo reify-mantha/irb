@@ -1,0 +1,67 @@
+.ui-accordion .ui-accordion-header {
+	display:block;
+	cursor:pointer;
+	position:relative;
+	margin-top:1em;
+	padding:.5em .5em .5em .7em;
+	min-height:0;
+	}
+	
+
+.ui-accordion .ui-accordion-icons {
+	padding-left:2.2em}
+
+.ui-accordion .ui-accordion-noicons {
+	padding-left:.7em}
+
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left:2.2em}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position:absolute;
+	left:.5em;
+	top:50%;
+	margin-top:-8em}
+
+.ui-accordion .ui-accordion-content {
+	padding:1em 5em;
+	overflow:visible
+	}
+
+.page-header h1{
+color:grey;
+}
+
+#tablesites {
+height: 750px;
+width: 100%;
+overflow:auto;
+border: 1px dotted #0088cc;
+}
+
+.list i{
+	margin-right:1.2em;
+}
+
+#timeline{
+height:700px;
+}
+
+.nav-list .icon-chevron-right {
+float: right;
+margin-top: 2px;
+margin-right: -6px;
+opacity: .25;
+}
+
+
+.anchor {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.navbar .nav{
+position:fixed;
+margin-left:40px;
+float:none;
+}
